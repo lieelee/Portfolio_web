@@ -379,68 +379,30 @@
   }
 }
 
-/* 
-.bubbles {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  bottom: -18rem;
-  left: 1rem;
+.github-link {
+  border-color: #52f2fd;
+  animation: click 1s infinite;
+  /* margin-left: 100rem; */
 }
 
-.bubbles img {
-  width: 10%;
-  opacity: 1;
-  animation: bubble 5s linear infinite;
-}
-
-@keyframes bubble {
+@keyframes click {
   0% {
-    transform: translateY(0);
+    border: red 0.5rem;
   }
   100% {
-    transform: translateY(-100vh);
-    opacity: 0;
+    border: #52f2fd 0.5rem;
   }
 }
 
-.bubbles img:nth-child(1) {
-  animation-delay: 2s;
-  width: 20rem;
+.button {
+  animation: season 1s infinite;
 }
-.bubbles img:nth-child(2) {
-  animation-delay: 1s;
-  width: 20rem;
-}
-.bubbles img:nth-child(3) {
-  animation-delay: 3s;
-  width: 15rem;
-}
-.bubbles img:nth-child(4) {
-  animation-delay: 4.5s;
-  width: 15rem;
-}
-.bubbles img:nth-child(5) {
-  animation-delay: 1s;
-}
-.bubbles img:nth-child(6) {
-  animation-delay: 4s;
-}
-.bubbles img:nth-child(7) {
-  animation-delay: 2s;
-}
-.bubbles img:nth-child(8) {
-  animation-delay: 0.5s;
-}
-.bubbles img:nth-child(9) {
-  animation-delay: 2.5s;
-} */
 
-/*
-.bubbles img:nth-child(10) {
-  animation-delay: 1s;
+@keyframes season {
+  0% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1.2);
+  }
 }
-.bubbles img:nth-child(11) {
-  animation-delay: 3s;
-} */

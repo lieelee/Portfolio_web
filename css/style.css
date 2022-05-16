@@ -272,7 +272,8 @@ h3 {
 .secondPage {
   background-image: url(/img/springImg/intro.jpg);
   width: 100%;
-  height: 140vh;
+  /* height: 140vh; */
+  /* height: */
   /* height: 100% */
   background-size: cover;
   background-position: center;
@@ -347,7 +348,7 @@ h3 {
 .skills img {
   position: relative;
   top: -15rem;
-  left: 7%;
+  left: -1%;
   height: 9rem;
   width: 9rem;
   border-radius: 50%;
@@ -362,7 +363,7 @@ h3 {
 
 .cv img {
   position: relative;
-  top: -12rem;
+  top: -10rem;
   left: 30rem;
   width: 15rem;
   cursor: pointer;
@@ -479,15 +480,18 @@ h3 {
 
 .portfolio-item .term {
   color: white;
-  background-color: brown;
+  background-color: #a63ec5;
   border-bottom-left-radius: 0.98rem;
   border-bottom-right-radius: 0.98rem;
   position: absolute;
   top: 0;
-  left: 1.5rem;
+  /* left: 1.5rem; */
+  left: 3rem;
   font-size: 3rem;
   display: inline-block;
-  padding: 0.19rem 0.625rem;
+  /* padding: 0.19rem 0.625rem; */
+  padding: 1rem 1.5rem;
+
   /* -webkit-transform: translateY(-40px); */
   transform: translateY(-40px);
   transition: 0.3s;
@@ -504,12 +508,20 @@ h3 {
   margin: 0 0 0.98rem;
   padding: 0 1.25rem;
   position: absolute;
-  top: 3.75rem;
+  top: 8rem;
+  line-height: 1.5;
+  /* line-height: 1.5; */
   transition: 0.3s;
   /* -webkit-transform: translateY(30px); */
   transform: translateY(30px);
   opacity: 0;
 }
+
+.portfolio-skill {
+  padding-top: 1.5rem;
+  font-weight: 400;
+}
+
 .portfolio-item .more-button {
   /* color: white;
   position: absolute;
@@ -529,7 +541,7 @@ h3 {
   /* position: absolute; */
 }
 
-.portfolio-item .github-link {
+.github-link {
   position: absolute;
   width: 10rem;
   height: 10rem;
@@ -926,3 +938,4 @@ textarea:not(:placeholder-shown) + label {
 #copyright-summer {
   color: white;
 }
+/* dd */
