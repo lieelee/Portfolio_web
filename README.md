@@ -1,6 +1,6 @@
 # Portfolio_web
 
-This website is deployed in netflify. Click to see this -> https://yeonuklee.netlify.app
+This website is deployed in netflify. Click to see this -> [yaunportfolio.netlify.app](https://yaunportfolio.netlify.app)
 
 1. This is the first landing page displayed. Since It was Spring when I was making this website, I made it to a Spring theme.
 The animation effect is implemented to show flower rain.
